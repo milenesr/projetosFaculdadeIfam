@@ -1,0 +1,5 @@
+CREATE TABLE Pessoa( idPessoa int not null, 
+	nome varchar(50) not null,
+	PRIMARY KEY (idPessoa));
+	
+	

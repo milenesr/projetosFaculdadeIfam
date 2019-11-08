@@ -1,0 +1,10 @@
+CREATE PROCEDURE CONSULTAREGISTRO ( Nome VARCHAR(45))
+P1: BEGIN
+	-- #######################################################################
+	-- # Returns count of tables created by DB2ADMIN and like VARNAME
+	-- #######################################################################
+
+	SELECT NOME
+	INTO NOME
+	FROM PESSOA;
+END P1

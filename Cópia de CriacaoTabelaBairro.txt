@@ -1,0 +1,7 @@
+CREATE TABLE Bairro( idBairro int not null, 
+	nome varchar(50) not null,
+	idBairroPessoa int not null,
+	PRIMARY KEY (idBairro),
+	
+	Foreign Key(idBairroPessoa) references Pessoa(idPessoa));
+	

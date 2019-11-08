@@ -1,0 +1,10 @@
+create procedure consultaregistro(ionut nome varchar(45))
+dynamic result sets 1 
+p1: begin
+select nome 
+into nome
+from cliente;
+end p1
+
+
+call consultaregistro('milene')

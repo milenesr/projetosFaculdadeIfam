@@ -1,0 +1,6 @@
+CREATE TABLE Cidade( idCidade int not null, 
+	nome varchar(50) not null,
+	idCidadePessoa int not null,
+	PRIMARY KEY (idCidade),
+	
+	Foreign Key(idCidadePessoa) references Bairro(idBairro));
